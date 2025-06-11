@@ -63,10 +63,10 @@ document.querySelectorAll('.btn').forEach(button => {
     if (button.textContent === 'Download CV') {
         button.addEventListener('click', function(e) {
             e.preventDefault();
-            const cvUrl = 'docs/HadeerAltabaa_CV.pdf';
+            const cvUrl = 'docs/Hadeer Altabaa - CV.pdf';
             const link = document.createElement('a');
             link.href = cvUrl;
-            link.download = 'HadeerAltabaa_CV.pdf';
+            link.download = 'Hadeer Altabaa - CV.pdf';
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
